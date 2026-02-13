@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CMSMvc.Data;
-// test
+// test 2
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
