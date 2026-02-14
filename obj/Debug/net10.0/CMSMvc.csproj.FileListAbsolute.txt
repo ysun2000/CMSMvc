@@ -293,3 +293,4 @@ C:\project\CMSMvc\obj\Debug\net10.0\refint\CMSMvc.dll
 C:\project\CMSMvc\obj\Debug\net10.0\CMSMvc.pdb
 C:\project\CMSMvc\obj\Debug\net10.0\CMSMvc.genruntimeconfig.cache
 C:\project\CMSMvc\obj\Debug\net10.0\ref\CMSMvc.dll
+C:\project\CMSMvc\obj\Debug\net10.0\CMSMvc.sourcelink.json
