@@ -20,7 +20,9 @@ namespace CMSMvc.Models
 
         public DateTime? UpdatedAt { get; set; }
 
-        public int? AuthorId { get; set; }
-        public virtual Author? Author { get; set; }
+        // Foreign key to AspNetUsers (IdentityUser)
+//        [Required]
+        public string AuthorId { get; set; } = string.Empty;
+        public Microsoft.AspNetCore.Identity.IdentityUser? Author { get; set; }
     }
 }

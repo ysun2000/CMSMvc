@@ -5,4 +5,5 @@ namespace CMSMvc.Data;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext(options)
 {
+	public DbSet<CMSMvc.Models.Article> Articles { get; set; }
 }
