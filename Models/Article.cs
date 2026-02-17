@@ -22,7 +22,7 @@ namespace CMSMvc.Models
 
         // Foreign key to AspNetUsers (IdentityUser)
 //        [Required]
-        public string AuthorId { get; set; } = string.Empty;
-        public Microsoft.AspNetCore.Identity.IdentityUser? Author { get; set; }
+        public string? AuthorId { get; set; } = string.Empty;
+        public virtual Microsoft.AspNetCore.Identity.IdentityUser? Author { get; set; }
     }
 }
