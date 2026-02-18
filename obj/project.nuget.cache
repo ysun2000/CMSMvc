@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AIOIU0btxHk=",
+  "dgSpecHash": "c8pZ8XKLPHo=",
   "success": true,
   "projectFilePath": "C:\\project\\CMSMvc\\CMSMvc.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\10.0.2\\microsoft.aspnetcore.identity.ui.10.0.2.nupkg.sha512",
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\10.0.3\\microsoft.aspnetcore.jsonpatch.10.0.3.nupkg.sha512",
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\10.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.10.0.3.nupkg.sha512",
+    "C:\\Users\\dsun\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.build\\17.11.48\\microsoft.build.17.11.48.nupkg.sha512",
     "C:\\Users\\dsun\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

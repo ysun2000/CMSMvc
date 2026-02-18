@@ -410,3 +410,4 @@ C:\project\CMSMvc\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Scripting.resource
 C:\project\CMSMvc\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\project\CMSMvc\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\project\CMSMvc\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\project\CMSMvc\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
