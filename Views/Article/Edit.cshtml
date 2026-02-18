@@ -20,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Content" class="control-label"></label>
-                <div id="editor" style="height: 400px;"></div>
+                <div id="editor" style="height: 400px; overflow-y: auto; border: 1px solid #ddd;"></div>
                 <input type="hidden" asp-for="Content" id="ContentInput" />
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
@@ -62,15 +62,35 @@
             }
         });
 
-        // Load existing content
-        const contentInput = document.getElementById('ContentInput');
-        if (contentInput.value) {
+        // Load existing content into editor
+        const contentInput = document.querySelector('input[name="Content"]');
+        if (contentInput && contentInput.value) {
             quill.root.innerHTML = contentInput.value;
         }
 
-        // Update hidden input before form submission
+        // Function to capture Quill content and update hidden input
+        function syncQuillToInput() {
+            const input = document.querySelector('input[name="Content"]');
+            if (input) {
+                input.value = quill.root.innerHTML;
+            }
+        }
+
+        // Sync content in real-time as user types
+        quill.on('text-change', function() {
+            syncQuillToInput();
+        });
+
+        // Also sync before form submission
         document.querySelector('form').addEventListener('submit', function(e) {
-            contentInput.value = quill.root.innerHTML;
+            syncQuillToInput();
+            // Validate that content is not empty
+            const input = document.querySelector('input[name="Content"]');
+            if (!input.value.trim() || input.value === '<p><br></p>') {
+                e.preventDefault();
+                alert('Content cannot be empty');
+                return false;
+            }
         });
     </script>
 }
